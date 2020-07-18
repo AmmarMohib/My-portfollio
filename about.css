@@ -1,0 +1,61 @@
+nav ul li a {
+    background-color: palegreen; 
+ text-decoration: none;   
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+ font-size: large;
+ float: right;
+ list-style-type: none;
+position: relative;
+color: black;
+min-width: 40px;
+}  
+nav ul li a:hover {
+    color: white;
+    background-color: green;
+    transition: 1s linear;
+}
+nav {
+     
+}
+.home {
+    position: relative;
+    top: 3px;
+    right: 250px;
+}
+.about-me {
+    position: relative;
+    top: 3px;
+    right: 70px;
+}
+.contact-me {
+    position: relative;
+   top: 3px;
+    left: 160px;    
+}
+nav ul {
+    list-style-type: none;
+}
+.ho {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.ab {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.co {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+body {
+    background-image: url('https://ispr.gov.pk/images/Navy-Thumb.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+}
